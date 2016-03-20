@@ -1,0 +1,26 @@
+{
+  "name": "node-brainfuck-js",
+  "version": "1.0.0",
+  "description": "Brainfuck-to-js compiler",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "coffee -o lib -c src",
+    "test": "coffee -o lib -c src && coffee test/test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterCxy/node-brainfuck-js.git"
+  },
+  "keywords": [
+    "brainfuck"
+  ],
+  "author": "PeterCxy",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/PeterCxy/node-brainfuck-js/issues"
+  },
+  "homepage": "https://github.com/PeterCxy/node-brainfuck-js#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
